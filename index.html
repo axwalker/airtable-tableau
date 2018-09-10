@@ -167,7 +167,7 @@
 			        			col_name = tables[i]["columns"][j]["name"];
 			        			col_type = tables[i]["columns"][j]["type"];
 
-			        			vColumns[j] = {"id" : col_name, "alias" : col_name, "dataType" : col_type};
+			        			vColumns[j] = {"id" : col_id, "alias" : col_name, "dataType" : col_type};
 			        		}
 			        		vColumns[vColumns.length] = {"id" : 'ID', "alias" : "ID", "dataType" : "text"};
 
@@ -275,7 +275,7 @@
 <body>
 	<div id="background"></div>
 	<div class="center">
-		AirTableau - A Tableau Web Data Connector for Tableau (ver 10.1 or later) for <a href=https://airtable.com>Airtable</a> data.
+		AirTableau v1.1 - A Tableau Web Data Connector for Tableau (ver 10.1 or later) for <a href=https://airtable.com>Airtable</a> data.
 		<p>
 			Please use Tableau to connect to this URL.
         </p>
